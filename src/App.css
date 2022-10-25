@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #b9b6a9;
+  height: 15vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h3 {
+  margin-left: 10%;
+  width: 80vw;
+  display: flex;
+  font-size: 30px ;
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+}
